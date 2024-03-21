@@ -1,11 +1,5 @@
 class DataBase {
-  db;
-
-  constructor() {
-    async () => {
-      db = await this.start();
-    };
-  }
+  constructor() {}
 
   async start() {
     const URI = "neo4j://localhost:7687";
